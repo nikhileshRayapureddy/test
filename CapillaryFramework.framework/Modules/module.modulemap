@@ -1,0 +1,10 @@
+framework module CapillaryFramework {
+  umbrella header "CapillaryFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module CapillaryFramework.Swift {
+    header "CapillaryFramework-Swift.h"
+}
